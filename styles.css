@@ -1,0 +1,26 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --cor-de-fundo: #5a5a5a;
+    --branco: #a8b0b4;
+    --cor-principal: #c0c0c0;
+    --cor-secundaria: #6d88c2;
+    --principal-degrade: linear-gradient(97.54deg, #4a505c 35.49%, #ffffff 195.37%);
+    --fonte-principal: "InterS";
+    --fonte-cor: #ffffff;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 30px;
+    font-weight: 700;
+}
